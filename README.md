@@ -3,6 +3,12 @@ Opencore EFI set up for hackintosh to work with Ventura 13.2.1
 
 ## Usage:
 * Important: Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate a unique device id for your machine, choose `iMac20,1`
+* Bios Setup: The BakerMS motherboard is a cheaper version of b460m so there isn't really much to be modified, pretty much:
+  * Turn off `Secure boot`
+  * Turn off `Intel Virtualization`
+  * Turn off `Intel SGX`
+  * Turn off `Intel Platform Trust`
+  * Change `SATA Mode: AHCI`
 * Have fun
 
 ## Specs
